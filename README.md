@@ -29,7 +29,7 @@ This repository contains a collection of MIPS 32 assembly programs which I did d
     Output: YES
    ```
 
-[ ] Add more programs
+- [ ] Add more programs
 
 ## Getting Started
 
