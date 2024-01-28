@@ -28,6 +28,54 @@ This repository contains a collection of MIPS 32 assembly programs which I did d
     Input: 1404
     Output: YES
    ```
+3. **Q3-base 16**
+   - Description: Write a program in MIPS that receives a number as input, and represents the input in base-16.
+   - Test Case: 
+   ```
+    Input: 167
+    Output: a7
+    
+    Input: 175
+    Output: af
+   ```
+
+4. **Q4-chunk**
+   - Description: Write a program in MIPS that receives a number as input, and outputs bits `14:17` (inclusive) as a binary number.
+   - Test Case: 
+   ```
+    Input: 143360
+    Output: 1
+    
+    Input: 11166000
+    Output: 3
+   ```
+
+5. **Q5-java**
+   - Description: Write a subroutine in MIPS that is equivalent to this Java code below. Note that it must get inputs in `$a0`, `$a1` and put the result in `$v0` register.
+        ```java
+        public class Main {
+            public static int amin(int m, int n) {
+                return 2 * m - n;
+            }
+        
+            public static void main(String[] args) {
+                int b = 2, c;
+                int[] a = {2, 5, 3, 7, 1};
+        
+                for (int i = 0; i < 5; i++) {
+                    if (a[i] > b)
+                        c = amin(a[i], b);
+                    else
+                        c = 0;
+                    System.out.println(c);
+                }
+            }
+        }
+        ```
+ 
+ 6. **Q6-parity**
+   - Description: Write a program in MIPS that puts remainder of the register `$s0` (mod 2) in the same register. You are not allowed to use any other registers.
+   Hint: You may use `sll`, `srl` to find parity of register content.
 
 - [ ] Add more programs
 
