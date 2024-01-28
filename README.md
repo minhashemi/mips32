@@ -77,6 +77,26 @@ This repository contains a collection of MIPS 32 assembly programs which I did d
    - Description: Write a program in MIPS that puts remainder of the register `$s0` (mod 2) in the same register. You are not allowed to use any other registers.
    Hint: You may use `sll`, `srl` to find parity of register content.
 
+7. **Q7-sort**
+   - Description: let 3 relatively small numbers (abs of numbers is less than $2^{29}$) be in registers `$s1`, `$s2`, `$s3`. Write a MIPS program that sorts these numbers without using conditional instructions (i.e. `bne`, `beq`) and puts them in `$t1`, `$t2`, `$t3` in increasing order. To do so, first write a _macro_ that finds maximum of two numbers and solve the problem using the macro.
+  
+8. **Q8-pie squared**
+   - Description: write a MIPS program that gets `n` from the user and calculates square of $\pi$ using following series:
+     $$\frac{\pi^2}{6} = \sum_{i=1}^n \frac{1}{i^2}$$
+
+9. **Q9-nCr**
+   - Description: Write a MIPS program that gets `n`, `r` from input and calculates ${n \choose r}$ using following recursion:
+$${n\choose r} = {n-1 \choose r-1} + {n-1 \choose r}$$
+
+10. **Q10-statistical**
+   - Description: Write a MIPS program that first gets `n`, and then gets *n* numbers from input, then returns their _average_ and _variance_.
+     Hint: to store numbers, use `syscall 9`
+
+11. **Q11-encryption**
+   - Description: The only secure way of encryption is One Time Pad (OTP). In this method, the main string and a random string with same length are `XOR` together to make the encrypted string.
+write a MIPS program that gets seed (a string of length 4) and a string of maximum 20 byte length from input. Then make the random encryption key string, by repeatedly calling `syscall 42`. Let upperbound be 256 and seed be what user enters. At the end, print the encrypted string by `XOR`ing the input string and encryption key.
+
+
 - [ ] Add more programs
 
 ## Getting Started
