@@ -95,9 +95,28 @@ $${n\choose r} = {n-1 \choose r-1} + {n-1 \choose r}$$
 11. **Q11-encryption**
    - Description: The only secure way of encryption is One Time Pad (OTP). In this method, the main string and a random string with same length are `XOR` together to make the encrypted string.
 write a MIPS program that gets seed (a string of length 4) and a string of maximum 20 byte length from input. Then make the random encryption key string, by repeatedly calling `syscall 42`. Let upperbound be 256 and seed be what user enters. At the end, print the encrypted string by `XOR`ing the input string and encryption key.
+---
+here is two advanced problems (simple projects maybe:))
 
+12. **Q00-BACKWARDS uppercase**
+   - Description: Develop a MIPS assembly program that accepts a string as input and performs the following operations on it:
 
-- [ ] Add more programs
+      - Utilize a subroutine to convert all lowercase letters within the string to uppercase letters, without requiring additional memory allocation.
+      - Implement another subroutine to print the resulting string in reverse, starting from the last character.
+        
+   It is important to note that the program should not rely on the `syscall 9` instruction for obtaining user input. Furthermore, it should enforce a predetermined length limit on the input string, rejecting any strings that exceed this limit.
+
+13. **Q000-transpose matrix**
+   - Description: Design a MIPS assembly program that requests an integer input, denoted as `n` satisfying the condition $n > 1$. In the event that the user provides an input that is not greater than $1$, the program prompts the user to enter a valid number again. After acquiring a suitable value for `n`, the program proceeds to execute the following operations:
+
+      - Implement a subroutine that allocates an $n \times n$ memory space and arranges the numbers $1,2, \cdots ,n^2$ in rows within the allocated memory.
+
+      - Create a subroutine that performs an in-place transposition of the matrix.
+
+      - Output the resulting matrix row by row using a designated subroutine.
+
+   It is crucial to ensure that the program adheres to the specified requirements and executes the aforementioned subroutines in the correct sequence.
+
 
 ## Getting Started
 
