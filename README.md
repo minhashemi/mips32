@@ -40,7 +40,7 @@ This repository contains a collection of MIPS 32 assembly programs which I did d
    ```
 
 4. **Q4-chunk**
-   - Description: Write a program in MIPS that receives a number as input, and outputs bits `14:17` (inclusive) as a binary number.
+   - Description: Write a program in MIPS that receives a number as input, and outputs bits `14:17` (inclusive) as a decimal number.
    - Test Case: 
    ```
     Input: 143360
