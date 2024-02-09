@@ -1,6 +1,6 @@
 # MIPS 32 Assembly Programs
 
-This repository contains a collection of MIPS 32 assembly programs which I did during taking Principles of Computer Systems course from Prof. Laleh Arshadi at Sharif University of Technology, Fall 2023. MIPS (Microprocessor without Interlocked Pipeline Stages) is a popular RISC (Reduced Instruction Set Computing) architecture commonly used in embedded systems and academic settings.
+This repository contains a collection of MIPS 32 assembly programs which I did during taking Principles of Computer Systems course taught by Prof. Laleh Arshadi at Sharif University of Technology, Fall 2023. MIPS (Microprocessor without Interlocked Pipeline Stages) is a popular RISC (Reduced Instruction Set Computing) architecture commonly used in embedded systems and academic settings.
 
 
 ## Programs
