@@ -1,4 +1,3 @@
-#Amin Hashemi - 400109208 - HW 8 - Q2 - Calculate Pie using Fourier series.
 
 .data
 prompt:  .asciiz "Enter n: " # Prompt to ask user for 'n'
